@@ -2,7 +2,7 @@
 	  -ms-text-size-adjust: 100%; /* 2 */
 	  -webkit-text-size-adjust: 100%; /* 2 */
 	}
-	body,h2,h3,form,br {
+	body,h2,h3,h4,form,br {
         margin: 0px;
         padding: 0px;
     }
@@ -50,14 +50,14 @@
     }
     .container {
         width: 932px;
-        height: 430px;
+        height: 530px;
         margin: auto;
         border: 1px solid #DCDCDC;
         background-color: White;
     }
     .domain {
         width: 160px;
-        height: 80px;
+        height: 100px;
         margin:  20px 0px 0px 20px;
         float: left;
         border: 1px solid #E8E8E8;
@@ -73,6 +73,11 @@
     .domain h3 {
         font-size: 15px;
         color: #008800;
+    }
+    .domain h4 {
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
     }
     .bottom {
         width: 160px;
